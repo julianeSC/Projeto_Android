@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:endColor="@color/black"
+        android:startColor="@color/blueA200"
+        android:centerColor="@color/blue900">
+
+    </gradient>
+    <corners
+
+        android:radius="50dp"
+        android:topLeftRadius="@dimen/material_drawer_sticky_footer_elevation"
+        >
+
+    </corners>
+
+</shape>

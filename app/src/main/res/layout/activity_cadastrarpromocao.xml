@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="juliane.s.c.cadastrocliente.Cadastrarpromocao"
+    android:background="@drawable/fundo_pinceis">
+
+    <Button
+        android:id="@+id/cp_btn_texto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botao"
+        android:text="@string/cp_btn_texto"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/tamanho_fonte"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cp_et_nome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="79dp"
+        android:textSize="@dimen/tamanho_fonte"
+        android:ems="10"
+        android:hint="@string/cp_et_nome"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp_btn_texto" />
+
+    <Spinner
+        android:id="@+id/cp_sp_opcao"
+        android:layout_width="366dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/botaorcamento"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="67dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/cp_et_nome" />
+
+    <Button
+        android:id="@+id/cp_btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="@dimen/tamanho_fonte"
+        android:background="@drawable/botao"
+        android:layout_marginRight="8dp"
+        android:text="@string/cp_btn_cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/cp_et_valor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/cp_et_dinheiro"
+        android:textSize="@dimen/tamanho_fonte"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp_sp_opcao"
+        app:layout_constraintVertical_bias="0.418" />
+</android.support.constraint.ConstraintLayout>

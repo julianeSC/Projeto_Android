@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "641546942985",
+    "firebase_url": "https://cadastrocliente-164c4.firebaseio.com",
+    "project_id": "cadastrocliente-164c4",
+    "storage_bucket": "cadastrocliente-164c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641546942985:android:5de262e0137cc19d",
+        "android_client_info": {
+          "package_name": "juliane.s.c.cadastrocliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641546942985-b4ci3tvg7tjmrv4p0nl09135momces1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmkisrdYKQTUiODDYL7jmW4zX7EBRDBQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

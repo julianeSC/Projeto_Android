@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Customer Registration</string>
+    <string name="action_settings">Settings</string>
+    <string name="et_nome">Name</string>
+    <string name="et_numero">Phone</string>
+    <string name="et_data">Date</string>
+    <string name="btn_agendar">Schedule</string>
+    <string name="to_et_preco">Value of service</string>
+    <string name="to_btn_texto">Prices of the Service</string>
+    <string name="to_btn_cadastrar">Register</string>
+    <string name="to_bnt_texto">Budget of Services</string>
+    <string name="to_et_nome_resp">Name of person in charge</string>
+    <string name="et_horario">Schedule</string>
+    <string name="btn_preco">Price</string>
+    <string name="btn_promocao">Promotion</string>
+    <string name="cp_et_nome">Name of person in charge</string>
+    <string name="cp_et_valor">Promotion amount</string>
+    <string name="cp_btn_cadastrar">Register</string>
+    <string name="cp_btn_texto">About us</string>
+    <string name="notificacao_remocao">Customer successfully removed</string>
+    <string name="visualizacao_cliente">Customer chosen: </string>
+    <string name="et_hora">Schedule</string>
+    <string name="cp_et_dinheiro">Value</string>
+    <string name="notificacao_promocao">Promotion excluded successfully</string>
+    <string name="noticacao_preco">Price successfully excluded</string>
+    <string name="home">Home</string>
+    <string name="menu_agenda">Schedule time</string>
+    <string name="menu_visualiza">View times</string>
+    <string name="menu_cadastrar_preco">Price list</string>
+    <string name="menu_promocoes">Promotions and prices</string>
+    <string name="menu_cadastrar_promocao">Advertise with us</string>
+    <string name="escolha_spinner">Haircut</string>
+    <string name="spinner_penteados">Hairstyles</string>
+    <string name="spinner_escova">Conventional brush</string>
+    <string name="spinner_coloracao">Coloring</string>
+    <string name="spinner_exoplastia">Exoplasty</string>
+    <string name="spinner_tratamento">Hair treatment</string>
+    <string name="spinner_interlazer">Interlaser</string>
+</resources>

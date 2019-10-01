@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners
+        android:radius="10dp"
+        android:bottomRightRadius="100dp"
+        android:topLeftRadius="@dimen/material_drawer_account_header_compact"
+        ></corners>
+    <gradient
+        android:endColor="@color/blue200"
+        android:centerColor="@color/blue50"
+        android:startColor="@color/blue800">
+
+    </gradient>
+
+</shape>

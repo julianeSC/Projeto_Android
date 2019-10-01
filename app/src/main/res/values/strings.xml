@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cadastro Cliente</string>
+    <string name="action_settings">Settings</string>
+    <string name="et_nome">Nome</string>
+    <string name="et_numero">Telefone</string>
+    <string name="et_data">Data</string>
+    <string name="btn_agendar">Agendar</string>
+    <string name="to_et_preco">Valor do serviço</string>
+    <string name="to_btn_texto">Preços do Serviço</string>
+    <string name="to_btn_cadastrar">Cadastrar</string>
+    <string name="to_bnt_texto">Orçamento dos Serviços</string>
+    <string name="to_et_nome_resp">Nome da responsável</string>
+    <string name="et_horario">Horário</string>
+    <string name="btn_preco">Preço</string>
+    <string name="btn_promocao">Promoção</string>
+    <string name="cp_et_nome">Nome do responsável</string>
+    <string name="cp_et_valor">Valor da promoção</string>
+    <string name="cp_btn_cadastrar">Cadastrar</string>
+    <string name="cp_btn_texto">Cadastrar Promoção</string>
+    <string name="notificacao_remocao">Cliente removido com sucesso</string>
+    <string name="visualizacao_cliente">Cliente escolhido: </string>
+    <string name="et_hora">Horário</string>
+    <string name="cp_et_dinheiro">Valor</string>
+    <string name="notificacao_promocao">Promoção excluida com sucesso</string>
+    <string name="noticacao_preco">Preço excluido com sucesso</string>
+    <string name="home">Home</string>
+    <string name="menu_agenda">Agendar horário</string>
+    <string name="menu_visualiza">Visualizar horários</string>
+    <string name="menu_cadastrar_preco">Cadastrar preço</string>
+    <string name="menu_promocoes">Promoções e preços</string>
+    <string name="menu_cadastrar_promocao">Cadastrar promoção</string>
+    <string name="escolha_spinner">Cortes de cabelo</string>
+    <string name="spinner_penteados">Penteados</string>
+    <string name="spinner_escova">Escova convencional</string>
+    <string name="spinner_coloracao">Coloração</string>
+    <string name="spinner_exoplastia">Exoplastia</string>
+    <string name="spinner_tratamento">Tratamento capilar</string>
+    <string name="spinner_interlazer">Interlaser</string>
+
+</resources>
